@@ -61,6 +61,7 @@ app.post("/sms", (req, res) => {
 
 app.post("/slack/reserve", (req, res) => {
   console.log("Slack body: ", req.body);
+  console.log("Waaazzzah");
   res.json(req.body);
 });
 
