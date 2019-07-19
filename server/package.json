@@ -4,11 +4,7 @@
   "private": true,
   "scripts": {
     "start": "PORT=3001 nodemon ./bin/www",
-<<<<<<< HEAD
-    "test": "jest --watch"
-=======
     "test": "jest --watchAll"
->>>>>>> 10c1e6cae1d5ac05a4326122d16d0721366a2ba9
   },
   "dependencies": {
     "cookie-parser": "^1.4.4",

@@ -23,9 +23,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
-app.use("/reservations", (req, res, next) => {
-  res.send("reservationsRouter");
-});
+app.use("/reservations", reservationsRouter);
+// app.use("/reservations", (req, res, next) => {
+//   res.send("reservationsRouter");
+// });
 
 let resList = [];
 module.exports.resList = resList;
