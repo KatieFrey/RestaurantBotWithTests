@@ -60,9 +60,23 @@ app.post("/sms", (req, res) => {
 });
 
 app.post("/slack/reserve", (req, res) => {
-  console.log("Slack body: ", req.body);
-  console.log("Waaazzzah");
-  res.json(req.body);
+  console.log("Slack body: ", req.body.text);
+  let text = req.body.text;
+  let parsedText = parser(text);
+
+  if (parsedText === null) {
+    res
+      .json(
+        "The restaurant is not open during that time. Please, make a new reservation"
+      )
+      .sendStatus(200);
+  } else {
+    const fromSlack = req.body.user_name;
+    parsedText["slack_user_name"] = fromSlack;
+    resList.push(parsedText);
+
+    res.json("Thank you for your reservation!").sendStatus(200);
+  }
 });
 
 // catch 404 and forward to error handler

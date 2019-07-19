@@ -1,5 +1,7 @@
 # Restaurant Bot using Twilio API
 
+[![Build Status](https://travis-ci.com/KatieFrey/RestaurantBotWithTests.svg?branch=master)](https://travis-ci.com/KatieFrey/RestaurantBotWithTests)
+
 /_ Under construction _/
 
 ## What this app does
