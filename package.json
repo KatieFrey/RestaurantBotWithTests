@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/KatieFrey/RestaurantBotWithTests/issues"
   },
-  "homepage": "https://github.com/KatieFrey/RestaurantBotWithTests#readme"
+  "homepage": "https://github.com/KatieFrey/RestaurantBotWithTests#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
 }
