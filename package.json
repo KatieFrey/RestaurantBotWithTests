@@ -1,0 +1,21 @@
+{
+  "name": "RestaurantBotWithTests",
+  "version": "1.0.0",
+  "description": "/_ Under construction _/",
+  "main": "send_sms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatieFrey/RestaurantBotWithTests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatieFrey/RestaurantBotWithTests/issues"
+  },
+  "homepage": "https://github.com/KatieFrey/RestaurantBotWithTests#readme"
+}
