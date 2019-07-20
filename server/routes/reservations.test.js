@@ -1,5 +1,5 @@
 // const reservations = require("./reservations");
-const supertest = require("supertest-as-promised");
+const supertest = require("supertest");
 const app = require("../app.js");
 const router = require("./index");
 

@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/KatieFrey/RestaurantBotWithTests#readme",
   "devDependencies": {
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2"
   }
 }
