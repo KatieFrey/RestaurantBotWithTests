@@ -2,7 +2,7 @@ import { prettyTime, filterTime } from "./clientUtils";
 
 test("prettyTime takes an isoTime date and converts it to Human Time", () => {
   expect(prettyTime("2019-12-25T19:00:00.000Z")).toBe(
-    "December 25th, 2019 at 2:00 pm"
+    "December 25th, 2019 at 7:00 pm"
   );
 });
 
