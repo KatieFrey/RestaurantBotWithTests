@@ -24,9 +24,15 @@
   },
   "dependencies": {
     "cookie-parser": "^1.4.4",
+    "dateformat": "^3.0.3",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-15": "^1.4.0",
     "express": "^4.17.1",
     "http-errors": "^1.7.3",
+    "human-date": "^1.4.0",
     "morgan": "^1.9.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "twilio": "^3.33.1"
   }
 }
