@@ -23,6 +23,9 @@
     "supertest": "^4.0.2"
   },
   "dependencies": {
-    "http-errors": "^1.7.3"
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "morgan": "^1.9.1"
   }
 }
