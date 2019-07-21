@@ -8,7 +8,7 @@ describe("GET requests", () => {
     // when we make requests to `/` we will get back an object
     return supertest(app) // supertest object lets us make & test HTTP req/res
       .get("/") // makes an HTTP request: GET '/'
-      .expect(200) // tests response status code
+      .expect(200) // tests response status code wazzah
       .expect(res => {
         expect(res.body).toEqual({}); // tests response body
       });
