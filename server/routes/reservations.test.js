@@ -23,4 +23,16 @@ describe("GET requests", () => {
         expect(res.body).toEqual([]); // tests response body
       });
   });
+
+  it("POST /slack/reserve adds a new reservation to resList", () => {
+    return supertest(app) // supertest object lets us make & test HTTP req/res
+      .post("/slack/reserve") // makes an HTTP request: POST '/slack/reserve'
+      .expect(200); // tests response status code
+  });
+
+  it("POST /sms responds with an empty object at first", () => {
+    return supertest(app) // supertest object lets us make & test HTTP req/res
+      .post("/sms") // makes an HTTP request: POST '/sms'
+      .expect(200); // tests response status code
+  });
 });
